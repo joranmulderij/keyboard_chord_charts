@@ -48,4 +48,9 @@ KeyboardChordChart.fromColors([
 
 ## Additional information
 
-Currently only two octaves can be shown. In the future I might make the package more flexible. Any suggestions are welcome. Small changes like adding certain parameters I can usually implement pretty quickly. Also consider starring the repo on Github :).
+TODO:
+
+* Change the default color for the outline of the piano.
+* Currently only two octaves can be shown. In the future I might make the package more flexible.
+
+Any suggestions are welcome. Small changes like adding certain parameters I can usually implement pretty quickly. Also consider starring the repo on Github :).

@@ -1,6 +1,7 @@
 name: keyboard_chord_charts
-description: A flutter package to display piano chord charts. This is a very simple package.
+description: A very simple flutter package to display piano chord charts.
 version: 0.0.1
+repository: https://github.com/joranmulderij/keyboard_chord_charts
 homepage:
 
 environment:
