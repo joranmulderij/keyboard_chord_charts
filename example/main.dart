@@ -17,6 +17,7 @@ void main() => runApp(MaterialApp(
               KeyboardChordChart.fromNoteIndexes(
                 const {0, 4, 7, 10},
                 highlightColor: Colors.blue,
+                defaultColor: Colors.yellow,
               ),
               const Spacer(),
               const Text('From Colors'),
