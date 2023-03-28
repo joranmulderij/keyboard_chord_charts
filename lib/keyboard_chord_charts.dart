@@ -9,19 +9,22 @@ class KeyboardChordChart extends StatelessWidget {
 
   /// Builds a keyboard chord chart with the given colors.
   /// The list of colors has to be of length 24.
-  const KeyboardChordChart.fromColors(this.colors, this.defaultColor, {Key? key})
+  const KeyboardChordChart.fromColors(this.colors,
+      {this.defaultColor = Colors.transparent, Key? key})
       : assert(colors.length == 24),
         super(key: key);
 
   KeyboardChordChart.fromNoteIndexes(Set<int> noteIndexes,
-      {Color highlightColor = Colors.blue,Color defaultColor = Colors.transparent, Key? key})
+      {Color highlightColor = Colors.blue,
+      Color defaultColor = Colors.transparent,
+      Key? key})
       : this.fromColors(
             List.generate(
                     24,
                     (index) =>
                         noteIndexes.contains(index) ? highlightColor : null)
                 .toList(),
-            defaultColor,
+            defaultColor: defaultColor,
             key: key);
 
   @override
